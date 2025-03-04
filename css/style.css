@@ -22,8 +22,9 @@
     margin-top: 80px;
 }
 
-.square {
+.circle {
     border-radius: 50%;
+    width: 100%;
 }
 
 .line-height {
