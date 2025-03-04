@@ -87,6 +87,27 @@ main {
     height: 77%;
 }
 
+.square-gray{
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    background-color: #535353;
+    text-align: center;
+}
+
+.circle-gray{
+    height: 60px;
+    width: 60px;
+    background-color: #535353;
+    text-align: center;
+    border-radius: 50%;
+}
+
+.profile-icon{
+    display: inline-block;
+    width: 15%;
+}
+
 /************ CONTEINER ************/
 
 /************ HEADER ************/
