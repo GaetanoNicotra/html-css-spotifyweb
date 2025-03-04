@@ -30,15 +30,31 @@ main{
     display: flex;
 }
 
+/************ SIDEBAR ************/
+
 #sidebar{
     height: 100%;
-    width: 150px;
+    width: 200px;
     background-color: rgb(65, 62, 62);
 }
+
+.search{
+    display: flex;
+    width: 20%;
+    align-items: center;
+}
+
 
 #conteiner{
     width: calc(100% - 150px);
     overflow-y: auto;
+}
+
+.information{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 77%;
 }
 
 /************ HEADER ************/
