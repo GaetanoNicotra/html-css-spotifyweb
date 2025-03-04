@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: Roboto;
+}
+
 /************ UTILITY ************/
 
 .text-right {
@@ -98,10 +102,9 @@ header {
     background-color: transparent;
     color: white;
     border-radius: 25px;
-    padding: 15px 45px;
+    padding: 10px 45px;
     border-color: rgb(255, 255, 255);
-    margin-top: 13px;
-
+    margin-top: 15px;
 }
 
 
@@ -110,6 +113,7 @@ header {
     list-style-type: none;
     justify-content: center;
     gap: 40px;
+    margin-top: 25px;
 }
 
 
