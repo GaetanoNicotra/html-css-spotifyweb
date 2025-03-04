@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -6,37 +6,45 @@
 
 /************ UTILITY ************/
 
-.text-right{
+.text-right {
     text-align: right;
 }
 
-.border-bottom{
+.text-center{
+    text-align: center;
+}
+
+.border-bottom {
     border-bottom: 3px solid rgb(115, 255, 0);
 }
 
-.margin-top{
+.margin-top {
     margin-top: 80px;
 }
 
-.square{
+.square {
     border-radius: 50%;
 }
 
-.line-height{
+.line-height {
     line-height: 30px;
 }
 
-.border-left{
+.border-left {
     border-left: 3px solid rgb(115, 255, 0);
 }
 
-.font-size25{
+.font-size20 {
     font-size: 20px;
+}
+
+.wd-100 {
+    width: 100%;
 }
 
 /************ MAIN ************/
 
-main{
+main {
     height: calc(100vh - 100px);
     background-color: #141922;
     color: white;
@@ -45,7 +53,7 @@ main{
 
 /************ SIDEBAR ************/
 
-#sidebar{
+#sidebar {
     height: 100%;
     width: 200px;
     background-color: #000000;
@@ -55,35 +63,37 @@ main{
     justify-content: space-between;
 }
 
-.sidebar-icon{
+.sidebar-icon {
     display: flex;
     width: 15%;
     align-items: center;
 }
 
 
-#conteiner{
+#conteiner {
     width: calc(100% - 150px);
     overflow-y: auto;
 }
 
-.information{
+.information {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     height: 77%;
 }
 
+/************ CONTEINER ************/
+
 /************ HEADER ************/
 
-header{
+header {
     position: sticky;
     height: 75px;
     background-color: #080B12;
     top: 0;
 }
 
-.btn{
+.btn {
     background-color: transparent;
     color: white;
     border-radius: 25px;
@@ -94,7 +104,7 @@ header{
 }
 
 
-.music-type-list{
+.music-type-list {
     display: flex;
     list-style-type: none;
     justify-content: center;
@@ -102,29 +112,32 @@ header{
 }
 
 
+/************ CONTAINER ************/
+
 /************ RECENTLY PLAYED ************/
 
-.square{
+.square {
     display: flex;
 }
 
-.square-album{
+.square-album {
     width: calc(100% / 6 - 10px);
     height: calc(100vw / 6);
-    background-color: green;
-    border: 2px solid black;
     margin: 10px;
+}
 
+.square-info{
+    text-align: center;
 }
 
 /************ FOOTER ************/
 
-footer{
+footer {
     height: 100px;
-    background-color:#282828;
+    background-color: #282828;
 }
 
-.footer-information{
+.footer-information {
     height: 100%;
     display: flex;
     justify-content: space-between;
@@ -132,12 +145,12 @@ footer{
     color: white;
 }
 
-.footer-info-left{
+.footer-info-left {
     display: flex;
     align-items: center;
-  
+
 }
 
-.footer-img{
+.footer-img {
     width: 10%;
 }
