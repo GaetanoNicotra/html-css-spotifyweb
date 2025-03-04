@@ -5,18 +5,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Document</title>
 </head>
 
 <body>
     <main>
         <div id="sidebar">
-            <div class="sidebar-up">
+            <div class="sidebar-up line-height">
             <img src="./img/logo.svg" alt="logo">
-                <div class="search"> <img src="./img/home.svg" alt="Home"> Home </div>
-                <div class="search"> <img src="./img/search.svg" alt="Home"> Cerca </div>
-                <div class="search"> <img src="./img/libreria.svg" alt="Home"> La tua libreria </div>
-
+                <div class="sidebar-icon border-left"> <img src="./img/home.svg" alt="Home"> Home </div>
+                <div class="sidebar-icon"> <img src="./img/search.svg" alt="Home"> Cerca </div>
+                <div class="sidebar-icon"> <img src="./img/libreria.svg" alt="Home"> libreria </div>
+                <div><h4>PLAYLIST</h4></div>
+                <div>Crea Playlist</div>
                     <ul>
                         <li>Nuova Playlist</li>
                         <li>Nuova Playlist</li>
@@ -28,9 +30,9 @@
                     </ul>
             </div>
                 <div class="sidebar-down">
-                    <div>Installa app</div>
+                    <div><i class="fa-solid fa-circle-arrow-down" style="color: #4e4e4e;"></i>Installa app</div>
                     <hr>
-                    <div><h4>John Doe</h4></div>
+                    <div class="sidebar-icon"><img src="./img/profile.svg" alt=""><h4>John Doe</h4></div>
                 </div>
  </div>
 
@@ -82,7 +84,31 @@
 
         </div>
     </main>
-    <footer></footer>
+    <footer>
+        <div class="footer-information">
+            <div class="footer-info-left font-size20">
+                <img class="footer-img" src="./img/sinister.jpeg" alt="sinister">
+                <div><b>Sinister</b></div>
+                <div>Brano Nome</div>
+               <div><i class="fa-solid fa-heart"></i></div>
+                <i class="fa-solid fa-folder"></i>
+            </div>
+
+            <div class="footer-info-center font-size20">
+                <i class="fa-solid fa-shuffle"></i>
+                <i class="fa-solid fa-backward-step"></i>
+                <i class="fa-solid fa-circle-play"></i>
+                <i class="fa-solid fa-forward-step"></i>
+                <i class="fa-solid fa-rotate-right"></i>
+            </div>
+
+            <div class="footer-info-right font-size20">
+                <i class="fa-solid fa-list-ul"></i>
+                <i class="fa-solid fa-tv"></i>
+                <i class="fa-solid fa-volume-high"></i>
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>

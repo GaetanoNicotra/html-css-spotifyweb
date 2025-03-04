@@ -22,11 +22,24 @@
     border-radius: 50%;
 }
 
+.line-height{
+    line-height: 30px;
+}
+
+.border-left{
+    border-left: 3px solid rgb(115, 255, 0);
+}
+
+.font-size25{
+    font-size: 20px;
+}
+
 /************ MAIN ************/
 
 main{
     height: calc(100vh - 100px);
-    background-color: gray;
+    background-color: #141922;
+    color: white;
     display: flex;
 }
 
@@ -35,15 +48,16 @@ main{
 #sidebar{
     height: 100%;
     width: 200px;
-    background-color: rgb(65, 62, 62);
+    background-color: #000000;
+    color: #535353;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
-.search{
+.sidebar-icon{
     display: flex;
-    width: 20%;
+    width: 15%;
     align-items: center;
 }
 
@@ -65,7 +79,7 @@ main{
 header{
     position: sticky;
     height: 75px;
-    background-color: #0c1427ec;
+    background-color: #080B12;
     top: 0;
 }
 
@@ -107,6 +121,23 @@ header{
 
 footer{
     height: 100px;
-    background-color: black;
+    background-color:#282828;
 }
 
+.footer-information{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.footer-info-left{
+    display: flex;
+    align-items: center;
+  
+}
+
+.footer-img{
+    width: 10%;
+}
