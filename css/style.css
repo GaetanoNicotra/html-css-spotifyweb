@@ -4,22 +4,30 @@
     box-sizing: border-box;
 }
 
+/************ UTILITY ************/
+
+.text-right{
+    text-align: right;
+}
+
+.border-bottom{
+    border-bottom: 3px solid rgb(115, 255, 0);
+}
+
+.margin-top{
+    margin-top: 80px;
+}
+
+.square{
+    border-radius: 50%;
+}
+
+/************ MAIN ************/
+
 main{
     height: calc(100vh - 100px);
     background-color: gray;
     display: flex;
-}
-
-header{
-    position: sticky;
-    height: 75px;
-    background-color: rgba(0, 0, 0, 0.6);
-    top: 0;
-}
-
-footer{
-    height: 100px;
-    background-color: black;
 }
 
 #sidebar{
@@ -28,7 +36,58 @@ footer{
     background-color: rgb(65, 62, 62);
 }
 
-#content{
+#conteiner{
     width: calc(100% - 150px);
     overflow-y: auto;
 }
+
+/************ HEADER ************/
+
+header{
+    position: sticky;
+    height: 75px;
+    background-color: #0c1427ec;
+    top: 0;
+}
+
+.btn{
+    background-color: transparent;
+    color: white;
+    border-radius: 25px;
+    padding: 15px 45px;
+    border-color: rgb(255, 255, 255);
+    margin-top: 13px;
+
+}
+
+
+.music-type-list{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    gap: 40px;
+}
+
+
+/************ RECENTLY PLAYED ************/
+
+.square{
+    display: flex;
+}
+
+.square-album{
+    width: calc(100% / 6 - 10px);
+    height: calc(100vw / 6);
+    background-color: green;
+    border: 2px solid black;
+    margin: 10px;
+
+}
+
+/************ FOOTER ************/
+
+footer{
+    height: 100px;
+    background-color: black;
+}
+
