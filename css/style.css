@@ -47,6 +47,10 @@ body{
     width: 100%;
 }
 
+.list-type{
+    list-style-type: none;
+}
+
 /************ MAIN ************/
 
 main {
@@ -66,6 +70,7 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    padding: 1%;
 }
 
 .sidebar-icon {
@@ -166,17 +171,38 @@ footer {
 .footer-information {
     height: 100%;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
     color: white;
+    padding: 1%;
 }
 
 .footer-info-left {
     display: flex;
     align-items: center;
+    width: 33%;
+    gap: 30px;
+}
 
+.footer-info-center {
+    text-align: center;
+    margin: auto;
+    width: 33%;
+}
+
+.footer-info-right {
+    display: flex;
+    align-items: center;
+    width: 33%;
+    justify-content: flex-end;
+    gap: 30px;
 }
 
 .footer-img {
     width: 10%;
+}
+
+.volume{
+    width: 20%;
+    height: 5%;
+    background: gray;
+    border-radius: 20%;
 }
