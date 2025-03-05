@@ -26,6 +26,9 @@ body {
     margin-top: 80px;
 }
 
+.margin-top-15{
+    margin-top: 15px;
+}
 .circle {
     border-radius: 50%;
     width: 100%;
@@ -91,7 +94,7 @@ main {
 
 .sidebar-icon {
     display: flex;
-    width: 15%;
+    width: 20%;
     align-items: center;
 }
 
