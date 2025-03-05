@@ -144,6 +144,7 @@ header {
 
 .music-type-list {
     display: flex;
+    flex-wrap: wrap;
     list-style-type: none;
     justify-content: center;
     gap: 40px;
@@ -221,8 +222,27 @@ footer {
 
 /************* MEDIA QUERY **********/
 
+/************* FORMATO MD **********/
+
 @media screen and (max-width:990px){
     .square-album{
         width: calc(100% / 4 - 20px); 
     }
+}
+
+/************* FORMATO S **********/
+
+@media screen and (max-width:690px){
+    .square-album{
+        width: calc(100% / 2 - 20px); 
+    }
+}
+
+/************* FORMATO XS **********/
+
+@media screen and (max-width:548px){
+    .square-album{
+        width: calc(100% / 2 - 20px); 
+    }
+    
 }
