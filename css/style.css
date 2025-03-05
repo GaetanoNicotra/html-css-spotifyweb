@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-body{
+body {
     font-family: Roboto;
 }
 
@@ -14,7 +14,7 @@ body{
     text-align: right;
 }
 
-.text-center{
+.text-center {
     text-align: center;
 }
 
@@ -47,16 +47,24 @@ body{
     width: 100%;
 }
 
-.list-type{
+.list-type {
     list-style-type: none;
 }
 
-.margin-bottom{
+.margin-bottom {
     margin-bottom: 5%;
 }
 
-.margin-bottom1{
-margin-bottom: 1%;
+.margin-bottom1 {
+    margin-bottom: 1%;
+}
+
+.color-gray{
+    color: #8d8c8c;
+}
+
+.margin-left{
+    margin-left: 10px;
 }
 
 /************ MAIN ************/
@@ -74,7 +82,7 @@ main {
     height: 100%;
     width: 200px;
     background-color: #000000;
-    color: #535353;
+    color: #8d8c8c;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -100,7 +108,7 @@ main {
     height: 77%;
 }
 
-.square-gray{
+.square-gray {
     display: inline-block;
     height: 30px;
     width: 30px;
@@ -108,14 +116,14 @@ main {
     text-align: center;
 }
 
-.circle-gray{
+.circle-gray {
     height: 36px;
     background-color: #535353;
     text-align: center;
     border-radius: 50%;
 }
 
-.profile-icon{
+.profile-icon {
     display: inline-block;
     width: 15%;
     margin-top: 5%;
@@ -149,6 +157,7 @@ header {
     justify-content: center;
     gap: 40px;
     margin-top: 25px;
+    color: #8d8c8c;
 }
 
 
@@ -166,7 +175,7 @@ header {
     margin: 10px;
 }
 
-.square-info{
+.square-info {
     text-align: center;
 }
 
@@ -212,7 +221,7 @@ footer {
     width: 10%;
 }
 
-.volume{
+.volume {
     width: 20%;
     height: 5%;
     background: gray;
@@ -224,25 +233,25 @@ footer {
 
 /************* FORMATO MD **********/
 
-@media screen and (max-width:990px){
-    .square-album{
-        width: calc(100% / 4 - 20px); 
+@media screen and (max-width:990px) {
+    .square-album {
+        width: calc(100% / 4 - 20px);
     }
 }
 
 /************* FORMATO S **********/
 
-@media screen and (max-width:690px){
-    .square-album{
-        width: calc(100% / 2 - 20px); 
+@media screen and (max-width:690px) {
+    .square-album {
+        width: calc(100% / 2 - 20px);
     }
 }
 
 /************* FORMATO XS **********/
 
-@media screen and (max-width:548px){
-    .square-album{
-        width: calc(100% / 2 - 20px); 
+@media screen and (max-width:548px) {
+    .square-album {
+        width: calc(100% / 2 - 20px);
     }
-    
+
 }
