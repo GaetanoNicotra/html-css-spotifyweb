@@ -22,18 +22,18 @@
 
         <div id="sidebar">
             <div class="sidebar-up line-height">
-                <img src="./img/logo.svg" alt="logo">
+                <img class="hidden-mobile" src="./img/logo.svg" alt="logo">
                 <img class="sidebar-logo-mobile" src="./img/logo-small.svg">
-                <div style="color: white;" class="sidebar-icon border-left"> <img src="./img/home.svg" alt="Home"> Home
+                <div style="color: white;" class="sidebar-icon border-left"> <img src="./img/home.svg" alt="Home"> <span class="hidden-mobile">Home</span>
                 </div>
-                <div class="sidebar-icon"> <img src="./img/search.svg" alt="Home"> <span>Cerca </span></div>
-                <div class="sidebar-icon"> <img src="./img/libreria.svg" alt="Home"> libreria </div>
+                <div class="sidebar-icon"> <img src="./img/search.svg" alt="Home"> <span class="hidden-mobile">Cerca </span></div>
+                <div class="sidebar-icon"> <img src="./img/libreria.svg" alt="Home"> <span class="hidden-mobile">libreria</span> </div>
                 <div>
-                    <h4 style="color: white;">PLAYLIST</h4>
+                    <h4 class="hidden-mobile" style="color: white;">PLAYLIST</h4>
                 </div>
 
-                <span class="square-gray"><i class="fa-solid fa-plus" style="color: black;"></i></span> Crea Playlist
-                <ul class="list-type">
+                <span class="square-gray hidden-mobile"><i class="fa-solid fa-plus" style="color: black;"></i></span> <span class="hidden-mobile" >Crea Playlist</span>
+                <ul class="list-type hidden-mobile">
                     <li>Nuova Playlist</li>
                     <li>Nuova Playlist</li>
                     <li>Nuova Playlist</li>
@@ -44,11 +44,11 @@
                 </ul>
             </div>
             <div class="sidebar-down">
-                <div class="margin-bottom"><i class="fa-solid fa-circle-arrow-down" style="color: #4e4e4e;"></i><b
-                        class="margin-left">Installa app</b> </div>
-                <hr>
+                <div class="margin-bottom arrow-icon"><i class="fa-solid fa-circle-arrow-down arrow-icon" style="color: #4e4e4e;"></i><b
+                        class="margin-left hidden-mobile">Installa app</b> </div>
+                <hr class="hidden-mobile" >
                 <div class="profile-icon circle-gray"> <img src="./img/profile.svg" alt="profile"></div><b
-                    class="margin-left" style="color: white;">John Doe</b>
+                    class="margin-left hidden-mobile" style="color: white;">John Doe</b>
             </div>
         </div>
 
@@ -166,8 +166,8 @@
             <div class="footer-info-left font-size20">
                 <img class="footer-img" src="./img/sinister.jpeg" alt="sinister">
                 <div><b>Sinister</b><br><span class="color-gray">Brano Nome</span></div>
-                <div class="color-gray"><i class="fa-regular fa-heart"></i></div>
-                <div class="color-gray"><i class="fa-regular fa-folder"></i></div>
+                <span class="color-gray"><i class="fa-regular fa-heart"></i></span>
+                <span class="color-gray"><i class="fa-regular fa-folder"></i></span>
             </div>
 
             <div class="footer-info-center font-size20">
