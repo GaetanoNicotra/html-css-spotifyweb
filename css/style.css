@@ -71,6 +71,16 @@ body {
     margin-left: 10px;
 }
 
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover{
+    text-decoration: none;
+    color: white;
+}
+
 /************ MAIN ************/
 
 main {
@@ -203,14 +213,14 @@ footer {
 .footer-info-left {
     display: flex;
     align-items: center;
-    width: 33%;
+    width: 100%;
     gap: 30px;
 }
 
 .footer-info-center {
     text-align: center;
     margin: auto;
-    width: 33%;
+    width: 100%;
     word-spacing: 30px;
     margin-bottom: 10px;
     line-height: 35px;
@@ -219,13 +229,13 @@ footer {
 .footer-info-center-down {
     display: flex;
     align-items: center;
-
+    width: 100%;
 }
 
 .footer-info-right {
     display: flex;
     align-items: center;
-    width: 33%;
+    width: 100%;
     justify-content: flex-end;
     gap: 30px;
 }
@@ -308,5 +318,12 @@ footer {
     .arrow-icon{
         margin: 12%;
         font-size: 25px;
+    }
+
+    .footer-info-left,
+    .footer-info-center,
+    .footer-info-center-down,
+    .footer-info-right {
+        width: calc(100% / 3);
     }
 }
