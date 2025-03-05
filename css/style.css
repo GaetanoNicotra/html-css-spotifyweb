@@ -92,6 +92,10 @@ main {
     padding: 1%;
 }
 
+.sidebar-logo-mobile{
+    display: none;
+}
+
 .sidebar-icon {
     display: flex;
     width: 20%;
@@ -194,6 +198,7 @@ footer {
     display: flex;
     color: white;
     padding: 1%;
+    width: 100%;
 }
 
 .footer-info-left {
@@ -248,6 +253,10 @@ footer {
     .square-album {
         width: calc(100% / 2 - 20px);
     }
+
+    .footer-information{
+        width: calc(100% / 3);
+    }
 }
 
 /************* FORMATO XS **********/
@@ -257,4 +266,19 @@ footer {
         width: calc(100% / 2 - 20px);
     }
 
+    .footer-information{
+        width: calc(100% / 4);
+    }
+
+   .sidebar-up, .sidebar-down{
+    display: none;
+   }
+
+   .sidebar-logo-mobile{
+    display: inline-block;
+   }
+
+   .sidebar{
+    width: 50%;
+   }
 }
