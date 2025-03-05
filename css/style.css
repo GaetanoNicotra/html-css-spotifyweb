@@ -32,7 +32,7 @@ body{
 }
 
 .line-height {
-    line-height: 30px;
+    line-height: 35px;
 }
 
 .border-left {
@@ -49,6 +49,14 @@ body{
 
 .list-type{
     list-style-type: none;
+}
+
+.margin-bottom{
+    margin-bottom: 5%;
+}
+
+.margin-bottom1{
+margin-bottom: 1%;
 }
 
 /************ MAIN ************/
@@ -101,8 +109,7 @@ main {
 }
 
 .circle-gray{
-    height: 60px;
-    width: 60px;
+    height: 36px;
     background-color: #535353;
     text-align: center;
     border-radius: 50%;
@@ -111,6 +118,7 @@ main {
 .profile-icon{
     display: inline-block;
     width: 15%;
+    margin-top: 5%;
 }
 
 /************ CONTEINER ************/
@@ -186,6 +194,9 @@ footer {
     text-align: center;
     margin: auto;
     width: 33%;
+    word-spacing: 30px;
+    margin-bottom: 10px;
+    line-height: 35px;
 }
 
 .footer-info-right {
@@ -205,4 +216,13 @@ footer {
     height: 5%;
     background: gray;
     border-radius: 20%;
+}
+
+
+/************* MEDIA QUERY **********/
+
+@media screen and (max-width:990px){
+    .square{
+        
+    }
 }
