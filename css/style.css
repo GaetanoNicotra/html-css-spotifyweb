@@ -295,6 +295,10 @@ footer {
         width: calc(100% / 2 - 20px);
     }
 
+    #conteiner{
+        width: 100%;
+    }
+
     .sidebar-logo-mobile {
         display: inline-block;
         width: 60%;
