@@ -99,10 +99,9 @@ i:hover {
 }
 
 .square-album:hover {
-    transition: 0.1s;
     filter: grayscale(50%);
     opacity: 40%;
-    filter: drop-shadow(10px 10px 5px rgb(0, 0, 0));
+    filter: drop-shadow(10px 15px 2px rgb(0, 0, 0));
 }
 
 .overlay {
@@ -198,6 +197,7 @@ header {
     height: 75px;
     background-color: #080B12;
     top: 0;
+    box-shadow: 0px 8px 25px #010c1f;
 }
 
 .btn {
