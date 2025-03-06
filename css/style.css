@@ -76,10 +76,32 @@ a{
     color: inherit;
 }
 
+/********* EFFETTI DI HOVER *********/
+
 a:hover{
     text-decoration: none;
     color: white;
     transition: 0.3s;
+    transform: scale(1.1);
+}
+
+.square-album:hover{
+    transition: 0.1s;
+    filter: grayscale(50%);
+    opacity: 40%;
+}
+
+.overlay{
+    position: absolute;
+    padding-left: 16px;
+    padding-right: 15px;
+    font-size: 50px;
+    color: black;
+    opacity: 0;
+}
+
+.overlay:hover{
+    opacity: 1;
 }
 
 /************ MAIN ************/
@@ -217,6 +239,7 @@ footer {
     align-items: center;
     width: 100%;
     gap: 30px;
+    background-color: #282828;
 }
 
 .footer-info-center {
@@ -333,5 +356,7 @@ footer {
     .footer-info-center-down,
     .footer-info-right {
         width: calc(100% / 3);
+        font-size: 15px;
     }
+
 }
