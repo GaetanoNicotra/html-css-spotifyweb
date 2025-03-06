@@ -146,10 +146,6 @@ main {
 }
 
 
-#conteiner {
-    width: calc(100% - 150px);
-    overflow-y: auto;
-}
 
 .information {
     display: flex;
@@ -183,6 +179,11 @@ main {
 
 /************ HEADER ************/
 
+#conteiner {
+    width: calc(100% - 150px);
+    overflow-y: auto;
+}
+
 header {
     position: sticky;
     height: 75px;
@@ -212,7 +213,7 @@ header {
 }
 
 
-/************ CONTAINER ************/
+/************ CONTEINER ************/
 
 /************ RECENTLY PLAYED ************/
 
@@ -276,7 +277,7 @@ footer {
 }
 
 .footer-img {
-    width: 15%;
+    width: 12%;
 }
 
 .volume {
