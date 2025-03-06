@@ -102,6 +102,7 @@ i:hover {
     transition: 0.1s;
     filter: grayscale(50%);
     opacity: 40%;
+    filter: drop-shadow(10px 10px 5px rgb(0, 0, 0));
 }
 
 .overlay {
