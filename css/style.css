@@ -71,36 +71,36 @@ body {
     margin-left: 10px;
 }
 
-a{
+a {
     text-decoration: none;
     color: inherit;
 }
 
-button:hover{
+button:hover {
     transform: scale(1.1);
 }
 
 /********* EFFETTI DI HOVER *********/
 
-a:hover{
+a:hover {
     text-decoration: none;
     color: white;
     transition: 0.3s;
     transform: scale(1.1);
 }
 
-i:hover{
+i:hover {
     color: white;
     transform: scale(1.1);
 }
 
-.square-album:hover{
+.square-album:hover {
     transition: 0.1s;
     filter: grayscale(50%);
     opacity: 40%;
 }
 
-.overlay{
+.overlay {
     position: absolute;
     padding-left: 16px;
     padding-right: 15px;
@@ -109,7 +109,7 @@ i:hover{
     opacity: 0;
 }
 
-.overlay:hover{
+.overlay:hover {
     opacity: 1;
 }
 
@@ -276,7 +276,7 @@ footer {
 }
 
 .footer-img {
-    width: 10%;
+    width: 15%;
 }
 
 .volume {
@@ -302,6 +302,10 @@ footer {
     .square-album {
         width: calc(100% / 4 - 20px);
     }
+
+    .footer-img{
+        width: 60px;
+    }
 }
 
 /************* FORMATO S **********/
@@ -315,8 +319,15 @@ footer {
     .footer-info-center,
     .footer-info-center-down,
     .footer-info-right {
-        width: calc(100% / 3);
         font-size: 15px;
+    }
+
+    .footer-info-center {
+        word-spacing: 10px;
+    }
+
+    .footer-img{
+        width: 60px;
     }
 
 }
@@ -328,7 +339,7 @@ footer {
         width: calc(100% / 2 - 20px);
     }
 
-    #conteiner{
+    #conteiner {
         width: 100%;
     }
 
@@ -346,17 +357,17 @@ footer {
         display: none;
     }
 
-    .sidebar-icon{
+    .sidebar-icon {
         width: 60%;
         margin: 15%;
     }
 
-    .profile-icon{
+    .profile-icon {
         width: 55%;
         margin: 15%;
     }
 
-    .arrow-icon{
+    .arrow-icon {
         margin: 12%;
         font-size: 25px;
     }
@@ -365,7 +376,20 @@ footer {
     .footer-info-center,
     .footer-info-center-down,
     .footer-info-right {
-        width: calc(100% / 3);
         font-size: 15px;
+        gap: 10px;
+    }
+
+    .footer-info-left {
+        width: 60%;
+    }
+
+    .footer-info-center {
+        word-spacing: 10px;
+        margin-left: 45px;
+    }
+
+    .footer-img{
+        width: 40px;
     }
 }
