@@ -167,16 +167,20 @@ main {
 }
 
 .circle-gray {
-    height: 36px;
+    height: 30px;
     background-color: #535353;
     text-align: center;
     border-radius: 50%;
+    background-image: url(../img/profile.svg);
+    object-fit: cover;
+    background-repeat: no-repeat;
+    
 }
 
 .profile-icon {
     display: inline-block;
-    width: 15%;
     margin-top: 5%;
+    width: 17%;
 }
 
 /************ CONTEINER ************/
@@ -401,4 +405,22 @@ footer {
     .footer-img{
         width: 40px;
     }
+}
+
+/************* FORMATO XXS **********/
+
+@media screen and (max-width:340px) {
+    
+    button{
+        display: none;
+    }
+    
+    .square-album {
+        width: calc(100% / 1 - 20px);
+    }
+
+    .footer-info-left {
+        display: none;
+    }
+
 }
