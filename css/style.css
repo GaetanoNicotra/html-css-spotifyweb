@@ -79,6 +79,7 @@ a{
 a:hover{
     text-decoration: none;
     color: white;
+    transition: 0.3s;
 }
 
 /************ MAIN ************/
@@ -208,6 +209,7 @@ footer {
     display: flex;
     color: white;
     padding: 1%;
+    height: 100%;
 }
 
 .footer-info-left {
@@ -281,7 +283,9 @@ footer {
     .footer-info-center-down,
     .footer-info-right {
         width: calc(100% / 3);
+        font-size: 15px;
     }
+
 }
 
 /************* FORMATO XS **********/
