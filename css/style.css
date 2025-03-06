@@ -76,12 +76,21 @@ a{
     color: inherit;
 }
 
+button:hover{
+    transform: scale(1.1);
+}
+
 /********* EFFETTI DI HOVER *********/
 
 a:hover{
     text-decoration: none;
     color: white;
     transition: 0.3s;
+    transform: scale(1.1);
+}
+
+i:hover{
+    color: white;
     transform: scale(1.1);
 }
 
@@ -188,6 +197,7 @@ header {
     padding: 10px 45px;
     border-color: rgb(255, 255, 255);
     margin-top: 15px;
+    margin-right: 15px;
 }
 
 
@@ -358,5 +368,4 @@ footer {
         width: calc(100% / 3);
         font-size: 15px;
     }
-
 }
